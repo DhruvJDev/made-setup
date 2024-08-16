@@ -1,0 +1,639 @@
+{
+  "author": "Unnamed",
+  "title": "Made Setup",
+  "date": "2024-06-20T17:38:11.821Z",
+  "tables": [
+    {
+      "id": 0,
+      "name": "User",
+      "x": 78,
+      "y": 145,
+      "fields": [
+        {
+          "name": "uid",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": 0
+        },
+        {
+          "name": "fname",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": 255
+        },
+        {
+          "name": "lname",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 2,
+          "size": 255
+        },
+        {
+          "name": "phone",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": true,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 3
+        },
+        {
+          "name": "email",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": true,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 4,
+          "size": 255
+        },
+        {
+          "name": "address",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 5,
+          "size": 255
+        },
+        {
+          "name": "password",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 6,
+          "size": 255
+        },
+        {
+          "name": "State",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 7,
+          "size": 255
+        },
+        {
+          "name": "city",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 8,
+          "size": 255
+        },
+        {
+          "name": "district",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 9,
+          "size": 255
+        },
+        {
+          "name": "pincode",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 10
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a",
+      "key": 1718902088159
+    },
+    {
+      "id": 1,
+      "name": "user_like",
+      "x": 428.20678716232624,
+      "y": 101,
+      "fields": [
+        {
+          "name": "uid",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": 0
+        },
+        {
+          "name": "product",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": true,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": 255
+        },
+        {
+          "name": "quantity",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 2
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a",
+      "key": 1718902329340
+    },
+    {
+      "id": 2,
+      "name": "Product",
+      "x": 902.4076232347031,
+      "y": 120.53820238153065,
+      "fields": [
+        {
+          "name": "p_id",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": 0
+        },
+        {
+          "name": "p_name",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": 255
+        },
+        {
+          "name": "p_quantity",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 2
+        },
+        {
+          "name": "p_price",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 3
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a",
+      "key": 1718902560202
+    },
+    {
+      "id": 3,
+      "name": "Deler",
+      "x": 1275.2693599451393,
+      "y": 102.6979278977779,
+      "fields": [
+        {
+          "name": "d_name",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 0,
+          "size": 255
+        },
+        {
+          "name": "d_phone",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 1
+        },
+        {
+          "name": "d_product",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 2,
+          "size": 255
+        },
+        {
+          "name": "d_quantity",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 3
+        },
+        {
+          "name": "d_address",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 4,
+          "size": 255
+        },
+        {
+          "name": "d_state",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 5,
+          "size": 255
+        },
+        {
+          "name": "d_city",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 6,
+          "size": 255
+        },
+        {
+          "name": "d_pincode",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 7
+        },
+        {
+          "name": "d_gst",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 8,
+          "size": 255
+        },
+        {
+          "name": "d_district",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 9,
+          "size": 255
+        }
+      ],
+      "comment": "",
+      "indices": [
+        {
+          "id": 0,
+          "name": "Deler_index_0",
+          "unique": false,
+          "fields": [
+            "d_name"
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Deler_index_1",
+          "unique": true,
+          "fields": [
+            "d_phone"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Deler_index_2",
+          "unique": false,
+          "fields": [
+            "d_product"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Deler_index_3",
+          "unique": false,
+          "fields": [
+            "d_quantity"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Deler_index_4",
+          "unique": false,
+          "fields": [
+            "d_address"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Deler_index_5",
+          "unique": false,
+          "fields": [
+            "State"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Deler_index_6",
+          "unique": false,
+          "fields": [
+            "district"
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Deler_index_7",
+          "unique": false,
+          "fields": [
+            "City"
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Deler_index_8",
+          "unique": false,
+          "fields": [
+            "GST"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Deler_index_9",
+          "unique": false,
+          "fields": [
+            "Pincode"
+          ]
+        }
+      ],
+      "color": "#175e7a",
+      "key": 1718902690951
+    },
+    {
+      "id": 4,
+      "name": "user_cart",
+      "x": 415.1924996801414,
+      "y": 420.9460223637967,
+      "fields": [
+        {
+          "name": "uid",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": 0
+        },
+        {
+          "name": "product",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": 255
+        },
+        {
+          "name": "quantity",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 2
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a",
+      "key": 1718902943414
+    }
+  ],
+  "relationships": [
+    {
+      "startTableId": 0,
+      "startFieldId": 0,
+      "endTableId": 1,
+      "endFieldId": 0,
+      "cardinality": "One to one",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "User_uid_fk",
+      "id": 0
+    },
+    {
+      "startTableId": 2,
+      "startFieldId": 1,
+      "endTableId": 1,
+      "endFieldId": 1,
+      "cardinality": "One to one",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "Product_name_fk",
+      "id": 1
+    },
+    {
+      "startTableId": 3,
+      "startFieldId": 2,
+      "endTableId": 2,
+      "endFieldId": 2,
+      "cardinality": "One to one",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "Deler_quantity_fk",
+      "id": 2
+    },
+    {
+      "startTableId": 3,
+      "startFieldId": 2,
+      "endTableId": 2,
+      "endFieldId": 1,
+      "cardinality": "One to one",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "Deler_product_fk",
+      "id": 3
+    },
+    {
+      "startTableId": 0,
+      "startFieldId": 0,
+      "endTableId": 4,
+      "endFieldId": 0,
+      "cardinality": "One to one",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "User_uid_fk",
+      "id": 4
+    },
+    {
+      "startTableId": 2,
+      "startFieldId": 1,
+      "endTableId": 4,
+      "endFieldId": 1,
+      "cardinality": "One to one",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "Product_p_name_fk",
+      "id": 5
+    },
+    {
+      "startTableId": 0,
+      "startFieldId": 0,
+      "endTableId": 1,
+      "endFieldId": 0,
+      "cardinality": "One to one",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "User_uid_fk",
+      "id": 6
+    }
+  ],
+  "notes": [],
+  "subjectAreas": [
+    {
+      "id": 0,
+      "name": "User",
+      "x": 36.346015352064455,
+      "y": 85.33305931702921,
+      "width": 656.7185950236992,
+      "height": 560.5283647427325,
+      "color": "#175e7a"
+    },
+    {
+      "id": 1,
+      "name": "Product",
+      "x": 876.8866671554617,
+      "y": 74.34912580406717,
+      "width": 625.706791808117,
+      "height": 467.4275177776529,
+      "color": "#175e7a"
+    }
+  ],
+  "types": []
+}

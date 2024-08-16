@@ -1,0 +1,449 @@
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Your CSS rules for phones */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* Your CSS rules for landscape phones and small tablets */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    /* Your CSS rules for tablets */
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    /* Your CSS rules for desktops */
+}
+
+/* Extra large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    /* Your CSS rules for large desktops */
+}
+
+
+
+for image
+https://shakingthehabitual.com/stacks/splider-2/
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Made Setup</title>
+    <link rel="shortcut icon" href="/raw/made-setup-logo-zoom.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="header">
+        <div class="header-1">
+            <a href="/index.html" class="logo ">
+                <img src="/raw/made-setup-logo-zoom.png" alt="logo" class="logo-img">
+                <!-- <i class="fas fa-computer"></i>  -->
+                Made Setup
+            </a>
+            <form action="" class="search-form">
+                <input type="search" placeholder="Search Here..." id="search-box">
+                <label for="search-box" class="fas fa-search"> </label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart">
+                    <!-- <span class="cart-item">0</span> -->
+                </a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="/gamer.html">Gamer</a>
+                <a href="/programer.html">Programer</a>
+                <a href="/designer.html">Designer</a>
+                <a href="/trader.html">Trader</a>
+                <a href="/office.html">Office</a>
+                <a href="/study.html">Study</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Bottom Navbar Start -->
+    <nav class="bottom-navbar">
+        <a href="/gamer.html" class="fa-solid fa-headset"></a>
+        <a href="/programer.html" class="fa-solid fa-computer"></a>
+        <a href="/designer.html" class="fa-solid fa-pen-nib"></a>
+        <a href="/designer.html" class="fa-solid fa-chart-line"></a>
+        <a href="/office.html" class="fa-solid fa-briefcase"></a>
+        <a href="/study.html" class="fa-solid fa-graduation-cap"></a>
+    </nav>
+
+    <!-- Bottom Navbar End -->
+
+    <!-- Header End -->
+
+    <!-- Login form Start -->
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <form action="">
+            <h3>Sign In</h3>
+            <span for="o-username">Username:</span>
+            <input type="email" name="" class="box" id="o-username" placeholder="Enter yore email..." required>
+            <span for="o-password">Password:</span>
+            <input type="password" name="" class="box" id="o-password" placeholder="Enter yore password..." required>
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="">click here</a> </p>
+            <p>Don't have an account. <a href="">create new account</a> </p>
+        </form>
+    </div>
+    <!-- Login form End -->
+
+
+    
+
+
+    
+    <!-- Hero Section Start -->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="container">
+                <h3>Upto 75% off</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, debitis eveniet! Vero,
+                    repudiandae unde. Nobis odit perferendis asperiores eaque deserunt architecto suscipit expedita iste
+                    laborum a, ea laboriosam tempore aliquam?</p>
+                <a href="" class="btn">shop now</a>
+            </div>
+            <div class=" img lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded bgr" alt="product link"
+                    src="img/gaming/headphone/boAt_Immortal_IM-700_7.1_Channel_PC_Virtual_Surround_Sound,_ENx_Tech,RGB_LEDs,_Remote_Control,_Braided_Cable_USB_Wired_Over_Ear_Gaming_Headphones_with_Mic_and_50mm_Drivers_(Black Sabre)/boat_Immortal_IM_700.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+
+
+    
+    <!-- Icon Section Start -->
+    <section class="icon-container">
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>Free shipping</h3>
+                <p>over order ₹499</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>secure payment</h3>
+                <p>100% secure payment </p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>Easy return</h3>
+                <p>7 days returns</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>24/7 support</h3>
+                <p>Call Us on any time</p>
+            </div>
+        </div>
+    </section>
+    <!-- Icon Section End -->
+
+
+
+
+
+
+
+    <!-- Content Section Start -->
+
+    <section class="product">
+        <h1 class="heading"><span><a href="/gamer.html">Gaming</a></span></h1>
+        <div class="container">
+            <div class="wrap">
+
+                <!-- Card -->
+                <div class="box">
+                    <a href="" class="block">
+                        <img alt="product" class=""
+                            src="img/gaming/headphone/boAt_Immortal_IM-700_7.1_Channel_PC_Virtual_Surround_Sound,_ENx_Tech,RGB_LEDs,_Remote_Control,_Braided_Cable_USB_Wired_Over_Ear_Gaming_Headphones_with_Mic_and_50mm_Drivers_(Black Sabre)/boat_Immortal_IM_700.jpg">
+                    </a>
+                    <div class="info">
+                        <h3 class="category">Headphone</h3>
+                        <h2 class="pname">boAt Immortal IM-700 7.1...</h2>
+                        <p ><span class="dis">-60%</span> ₹2,799 <br>M.R.P. <span class="mrp">₹6,990</span></p>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="box">
+                    <a href="" class="block">
+                        <img alt="product" class=""
+                            src="img/gaming/41eONsH6r6L._SX300_SY300_QL70_ML2_.jpg">
+                    </a>
+                    <div class="info">
+                        <h3 class="category">Headphone</h3>
+                        <h2 class="pname">boAt Immortal IM-700 7.1...</h2>
+                        <p ><span class="dis">-60%</span> ₹2,799 <br>M.R.P. <span class="mrp">₹6,990</span></p>
+                    </div>
+                </div>
+               
+                <!-- Card -->
+                <div class="box">
+                    <a href="" class="block">
+                        <img alt="product" class=""
+                            src="img/gaming/71J3Zfu2LGL._SX679_.jpg">
+                    </a>
+                    <div class="info">
+                        <h3 class="category">Headphone</h3>
+                        <h2 class="pname">boAt Immortal IM-700 7.1...</h2>
+                        <p ><span class="dis">-60%</span> ₹2,799 <br>M.R.P. <span class="mrp">₹6,990</span></p>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="box">
+                    <a href="" class="block">
+                        <img alt="product" class=""
+                            src="img/gaming/headphone/boAt_Immortal_IM-700_7.1_Channel_PC_Virtual_Surround_Sound,_ENx_Tech,RGB_LEDs,_Remote_Control,_Braided_Cable_USB_Wired_Over_Ear_Gaming_Headphones_with_Mic_and_50mm_Drivers_(Black Sabre)/boat_Immortal_IM_700.jpg">
+                    </a>
+                    <div class="info">
+                        <h3 class="category">Headphone</h3>
+                        <h2 class="pname">boAt Immortal IM-700 7.1...</h2>
+                        <p ><span class="dis">-60%</span> ₹2,799 <br>M.R.P. <span class="mrp">₹6,990</span></p>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="box">
+                    <a href="" class="block">
+                        <img alt="product" class=""
+                            src="img/gaming/headphone/boAt_Immortal_IM-700_7.1_Channel_PC_Virtual_Surround_Sound,_ENx_Tech,RGB_LEDs,_Remote_Control,_Braided_Cable_USB_Wired_Over_Ear_Gaming_Headphones_with_Mic_and_50mm_Drivers_(Black Sabre)/boat_Immortal_IM_700.jpg">
+                    </a>
+                    <div class="info">
+                        <h3 class="category">Headphone</h3>
+                        <h2 class="pname">boAt Immortal IM-700 7.1...</h2>
+                        <p ><span class="dis">-60%</span> ₹2,799 <br>M.R.P. <span class="mrp">₹6,990</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section End -->
+
+
+
+    <!-- Content Section Start -->
+
+    <section class="product">
+        <h1 class="heading"><span>Gaming</span></h1>
+        <div class="container">
+            <div class="wrap">
+
+                <!-- Card -->
+                <div class="box">
+                    <a href="" class="block">
+                        <img alt="product" class=""
+                            src="img/gaming/headphone/boAt_Immortal_IM-700_7.1_Channel_PC_Virtual_Surround_Sound,_ENx_Tech,RGB_LEDs,_Remote_Control,_Braided_Cable_USB_Wired_Over_Ear_Gaming_Headphones_with_Mic_and_50mm_Drivers_(Black Sabre)/boat_Immortal_IM_700.jpg">
+                    </a>
+                    <div class="info">
+                        <h3 class="category">Headphone</h3>
+                        <h2 class="pname">boAt Immortal IM-700 7.1...</h2>
+                        <p ><span class="dis">-60%</span> ₹2,799 <br>M.R.P. <span class="mrp">₹6,990</span></p>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="box">
+                    <a href="" class="block">
+                        <img alt="product" class=""
+                            src="img/gaming/headphone/boAt_Immortal_IM-700_7.1_Channel_PC_Virtual_Surround_Sound,_ENx_Tech,RGB_LEDs,_Remote_Control,_Braided_Cable_USB_Wired_Over_Ear_Gaming_Headphones_with_Mic_and_50mm_Drivers_(Black Sabre)/boat_Immortal_IM_700.jpg">
+                    </a>
+                    <div class="info">
+                        <h3 class="category">Headphone</h3>
+                        <h2 class="pname">boAt Immortal IM-700 7.1...</h2>
+                        <p ><span class="dis">-60%</span> ₹2,799 <br>M.R.P. <span class="mrp">₹6,990</span></p>
+                    </div>
+                </div>
+               
+                <!-- Card -->
+                <div class="box">
+                    <a href="" class="block">
+                        <img alt="product" class=""
+                            src="img/gaming/headphone/boAt_Immortal_IM-700_7.1_Channel_PC_Virtual_Surround_Sound,_ENx_Tech,RGB_LEDs,_Remote_Control,_Braided_Cable_USB_Wired_Over_Ear_Gaming_Headphones_with_Mic_and_50mm_Drivers_(Black Sabre)/boat_Immortal_IM_700.jpg">
+                    </a>
+                    <div class="info">
+                        <h3 class="category">Headphone</h3>
+                        <h2 class="pname">boAt Immortal IM-700 7.1...</h2>
+                        <p ><span class="dis">-60%</span> ₹2,799 <br>M.R.P. <span class="mrp">₹6,990</span></p>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="box">
+                    <a href="" class="block">
+                        <img alt="product" class=""
+                            src="img/gaming/headphone/boAt_Immortal_IM-700_7.1_Channel_PC_Virtual_Surround_Sound,_ENx_Tech,RGB_LEDs,_Remote_Control,_Braided_Cable_USB_Wired_Over_Ear_Gaming_Headphones_with_Mic_and_50mm_Drivers_(Black Sabre)/boat_Immortal_IM_700.jpg">
+                    </a>
+                    <div class="info">
+                        <h3 class="category">Headphone</h3>
+                        <h2 class="pname">boAt Immortal IM-700 7.1...</h2>
+                        <p ><span class="dis">-60%</span> ₹2,799 <br>M.R.P. <span class="mrp">₹6,990</span></p>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="box">
+                    <a href="" class="block">
+                        <img alt="product" class=""
+                            src="img/gaming/headphone/boAt_Immortal_IM-700_7.1_Channel_PC_Virtual_Surround_Sound,_ENx_Tech,RGB_LEDs,_Remote_Control,_Braided_Cable_USB_Wired_Over_Ear_Gaming_Headphones_with_Mic_and_50mm_Drivers_(Black Sabre)/boat_Immortal_IM_700.jpg">
+                    </a>
+                    <div class="info">
+                        <h3 class="category">Headphone</h3>
+                        <h2 class="pname">boAt Immortal IM-700 7.1...</h2>
+                        <p ><span class="dis">-60%</span> ₹2,799 <br>M.R.P. <span class="mrp">₹6,990</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Section Start -->
+    <footer>
+        <section class="footer" >
+            <div class="box-container">
+                <!-- <div class="box">
+                    <h3>Our Category</h3>
+                    <a href="/gamer.html" class="hover-underline-animation"><i class="fa-solid fa-headset"></i>Gamer</a>
+                    <a href="/programer.html" class="hover-underline-animation"><i
+                            class="fa-solid fa-computer"></i>Programer</a>
+                    <a href="/designer.html" class="hover-underline-animation"><i
+                            class="fa-solid fa-pen-nib"></i>Designer</a>
+                    <a href="/trader.html" class="hover-underline-animation"><i
+                            class="fa-solid fa-chart-line"></i>Trader</a>
+                    <a href="/office.html" class="hover-underline-animation"><i
+                            class="fa-solid fa-briefcase"></i>Office</a>
+                    <a href="/study.html" class="hover-underline-animation"><i
+                            class="fa-solid fa-graduation-cap"></i>Study</a>
+                </div> -->
+
+                <div class="box">
+                    <h3>Parts</h3>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>RAM</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>ROM</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Cabinet</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Processor</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Motherboard</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Liquid Cooler</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Fans</a>
+                </div>
+
+                <div class="box">
+                    <h3>Accessories</h3>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Keyboard</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Mouse</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Hub</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Router</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Wire</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>HDD/SSD</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Laptop Stand</a>
+                </div>
+
+                <div class="box">
+                    <h3>Extras</h3>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>About Us</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Terms & Condition</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Privacy Policy</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Refund Policy</a>
+                    <a href="" class="hover-underline-animation"><i class="fas fa-arrow-right"></i>Delivery
+                        Information</a>
+                </div>
+
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <a href="tel:+919518419715" class="hover-underline-animation"><i class="fas fa-phone"></i>+91
+                        95184-19715</a>
+                    <a href="mailto:djindal015@gmail.com" class="hover-underline-animation"><i
+                            class="fas fa-envelope"></i>Djindal015@gmail.com</a>
+                    <a href="https://goo.gl/maps/B4mLfGGZCqCEsKTc7" target="_blank" class="hover-underline-animation"><i
+                            class="fa-solid fa-location-dot"></i>My World, kali Devi Chowk, Hansi, Haryana, 125033</a>
+                    <img src="img/world-map.jpg" alt="map" class="map">
+                </div>
+            </div>
+            <div class="share">
+                <a href="" class="fab fa-facebook-f"></a>
+                <a href="" class="fab fa-twitter"></a>
+                <a href="" class="fab fa-instagram"></a>
+                <a href="" class="fab fa-linkedin"></a>
+            </div>
+        </section>
+    </footer>
+    <!-- Footer Section End-->
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>

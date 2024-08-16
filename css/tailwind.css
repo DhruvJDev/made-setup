@@ -1,0 +1,280 @@
+@media (min-width: 1024px) {
+    .lg\:max-w-lg {
+        max-width: 32rem;
+    }
+}
+@media (min-width: 1024px) {
+    .lg\:w-full {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .md\:w-1\/2 {
+        width: 50%;
+    }
+}
+.w-5\/6 {
+    width: 83.333333%;
+}
+
+.container {
+    width: 100%;
+}
+
+
+.object-center {
+    object-position: center;
+}
+.object-cover {
+    object-fit: cover;
+}
+.rounded {
+    border-radius: .25rem;
+}
+.rounded {
+    border-radius: .25rem;
+}
+.object-cover {
+    object-fit: cover;
+}
+.object-center {
+    object-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Product Section Start */
+.text-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+/* 
+
+*, ::after, ::before {
+    --tw-ring-inset: var(--tw-empty);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+}
+*, ::after, ::before {
+    --tw-shadow: 0 0 #0000;
+}
+*, ::after, ::before {
+    --tw-border-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+* {
+    font-family: 'Poppers', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transform: all .2s linear;
+    transform: width none;
+}
+user agent stylesheet
+section {
+    display: block;
+    unicode-bidi: isolate;
+} */
+
+body {
+    font-family: inherit;
+    line-height: inherit;
+}
+
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+*, ::after, ::before {
+    --tw-ring-inset: var(--tw-empty);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+}
+*, ::after, ::before {
+    --tw-shadow: 0 0 #0000;
+}
+*, ::after, ::before {
+    --tw-border-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+
+.py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+/* not need */
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+.container {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1024px) {
+    .lg\:w-1\/4 {
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:w-1\/2 {
+        width: 50%;
+    }
+}
+.p-4 {
+    padding: 1rem;
+}
+.w-full {
+    width: 100%;
+}
+
+.rounded {
+    border-radius: .25rem;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.h-48 {
+    height: 12rem;
+}
+.block {
+    display: block;
+}
+.relative {
+    position: relative;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+/* image */
+.object-center {
+    object-position: center;
+}
+.object-cover {
+    object-fit: cover;
+}
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+.block {
+    display: block;
+}
+
+
+
+
+
+
+.text-gray-500 {
+    --tw-text-opacity: 1;
+    color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+.tracking-widest {
+    letter-spacing: .1em;
+}
+.text-xs {
+    font-size: .75rem;
+    line-height: 1rem;
+}
+.mb-1 {
+    margin-bottom: .25rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+.text-gray-900 {
+    --tw-text-opacity: 1;
+    color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+
+.font-medium {
+    font-weight: 500;
+}
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+    margin: 0;
+}
+
+
+/* Product Section End */
