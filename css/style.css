@@ -580,7 +580,7 @@ html::-webkit-scrollbar-thumb {
 
 
 
-.hed{
+.hed {
     font-size: 3rem;
 }
 
@@ -845,46 +845,137 @@ html::-webkit-scrollbar-thumb {
 
 
 
-.product-d{
+.product-d {
     display: flex;
     margin: 2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.m-body{
-    margin-bottom: 6rem;
+.product-d .imgages .main img{
+    background: #000;
 }
 
 
-.m-body .hed{
+/* Product */
+.pinfo {
+    margin: 4rem 2rem 4rem 0;
+}
+
+.pinfo .category {
+    font-size: 2rem;
+    color: var(--light-color);
+}
+
+.pinfo .pname {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+.pinfo .star {
+    font-size: 2rem;
+}
+
+.pinfo .star span {
+    font-weight: bold;
+}
+
+.pinfo p {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.pinfo p .dis {
+    color: red;
+    font-size: 3rem;
+}
+
+.pinfo p .mrp {
+    text-decoration: line-through;
+    color: var(--light-color);
+}
+
+.pinfo div {
+    margin-top: 4rem;
+}
+
+.data{
+    display: block;
+    margin-left: 5rem;
+}
+/* Table Data */
+
+.tableData {
+    /* margin-left: 3rem; */
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.tableData p {
+    color: var(--light-color);
+}
+
+.tableData p .clr {
+    color: #000000;
+}
+
+.tableData .tbl {
+    margin-top: 1rem;
+    border-collapse: collapse
+}
+
+.tableData .tbl tr th {
+    text-align: left;
+    padding: 1rem;
+    border: .3rem solid;
+
+}
+
+.tableData .tbl tr td {
+    text-align: left;
+    padding: 1rem;
+    border: .3rem solid;
+}
+
+/* About */
+
+.pAbout{
+    font-size: 1.5rem;
+}
+
+.pAbout span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pAbout ul{
+    margin-bottom: 1.5rem;
+}
+
+.pAbout ul li{
+    padding-top: 1rem;
+    width: 90%;
+}
+
+
+
+
+.m-body {
+    margin-bottom: 6rem;
+}
+
+.m-body h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.m-body .hed {
     font-size: 3rem;
     margin: 3rem 3rem 0 3rem;
 }
 
-.m-body .text{
+.m-body .text {
     padding-top: 1rem;
     margin-left: 3rem;
     font-size: 1.5rem;
@@ -926,7 +1017,7 @@ html::-webkit-scrollbar-thumb {
         border-radius: 3rem;
     }
 
-    .list .plist .imgae{
+    .list .plist .imgae {
         box-shadow: var(--box-shadow);
     }
 
