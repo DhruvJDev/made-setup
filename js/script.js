@@ -95,3 +95,12 @@ window.onload = () => {
 
 
 
+var cNumber = document.getElementById("cNumber");
+cNumber.innerHTML = "+91 95184-19715"; 
+
+var cMail = document.getElementById("cMail");
+cMail.innerHTML = "dhruvjindal156@gmail.com"; 
+
+var cAddress = document.getElementById("cAddress");
+cAddress.innerHTML = "My World, kali Devi Chowk, Hansi, Haryana, 125033"; 
+
