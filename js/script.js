@@ -106,7 +106,7 @@ window.onload = () =>
 
 // Phone
 var cNumber = document.getElementById("cNumber");
-cNumber.innerHTML = "+91 95184-19715";
+cNumber.innerHTML = "+91 95184 19715";
 document.getElementById('phoneLink').href = "tel:+919518419715";
 
 // Mail Id

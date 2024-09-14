@@ -863,6 +863,7 @@ html::-webkit-scrollbar-thumb {
 .pinfo .category {
     font-size: 2rem;
     color: var(--light-color);
+    text-transform: none;
 }
 
 .pinfo .pname {
