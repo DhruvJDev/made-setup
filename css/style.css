@@ -869,6 +869,7 @@ html::-webkit-scrollbar-thumb {
     padding-top: 2rem;
     padding-bottom: 1.5rem;
     font-size: 3rem;
+    text-transform: none;
 }
 
 .pinfo .star {
@@ -954,6 +955,7 @@ html::-webkit-scrollbar-thumb {
 .pAbout ul li{
     padding-top: 1rem;
     width: 90%;
+    text-transform: none;
 }
 
 
