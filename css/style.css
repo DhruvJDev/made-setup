@@ -984,7 +984,26 @@ html::-webkit-scrollbar-thumb {
     font-size: 1.5rem;
 }
 
+@media(max-width:450px)  {
+    .product-d{
+        display: block;
+        margin-left: 0;
+        padding-left: 0;
+    }
 
+    .pinfo .pname{
+        font-size: 2.2rem;
+    }
+
+    .tableData{
+        font-size: 1.5rem;
+    }
+
+    .product-d .imgages .main .img{
+        width: 70%;
+        height: auto;
+    }
+}
 
 
 

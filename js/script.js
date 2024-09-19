@@ -99,6 +99,9 @@ window.onload = () =>
 
 
 
+// Site Name
+// var sName = document.getElementById("sName");
+// sName.innerHTML = "Meet Setup";
 
 
 
@@ -106,8 +109,8 @@ window.onload = () =>
 
 // Phone
 var cNumber = document.getElementById("cNumber");
-cNumber.innerHTML = "+91 95184 19715";
-document.getElementById('phoneLink').href = "tel:+919518419715";
+cNumber.innerHTML = "+91 88728-89961";
+document.getElementById('phoneLink').href = "tel:+918872889961";
 
 // Mail Id
 var cMail = document.getElementById("cMail");
