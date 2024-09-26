@@ -969,19 +969,22 @@ html::-webkit-scrollbar-thumb {
 .m-body h1 {
     font-size: 4rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 
 .m-body .hed {
     font-size: 3rem;
     margin: 3rem 3rem 0 3rem;
+    text-transform: none;
 }
 
 .m-body .text {
     padding-top: 1rem;
-    margin-left: 3rem;
-    font-size: 1.5rem;
+    margin-left: 4rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+    text-transform: none;
 }
 
 @media(max-width:450px)  {
