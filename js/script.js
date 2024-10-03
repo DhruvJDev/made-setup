@@ -125,3 +125,7 @@ document.getElementById('addressLink').href = "https://goo.gl/maps/B4mLfGGZCqCEs
 addressLink.target = "_blank";
 
 // Footer End
+
+
+var cart = document.getElementById("cart");
+document.getElementById('cart').href="/cart.html"

@@ -1005,6 +1005,7 @@ html::-webkit-scrollbar-thumb {
     .product-d .imgages .main .img{
         width: 70%;
         height: auto;
+        margin-left: 9rem;
     }
 }
 
