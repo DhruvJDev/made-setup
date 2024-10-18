@@ -129,3 +129,8 @@ addressLink.target = "_blank";
 
 var cart = document.getElementById("cart");
 document.getElementById('cart').href="/cart.html"
+
+
+
+var tPrice = document.getElementById("tPrice");
+tPrice.innerHTML = "2499";

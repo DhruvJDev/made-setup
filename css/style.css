@@ -10,6 +10,18 @@
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
+hr{
+    margin-top: 10px;
+    height: 3px; 
+    background-color: var(--blue); 
+    color: var(--blue);
+}
+
+.red{
+    background: red;
+    color: white;
+}
+
 * {
     font-family: 'Poppers', sans-serif;
     margin: 0;
@@ -851,7 +863,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 .product-d .imgages .main img{
-    background: #000;
+    background: #888888;
+    width: 50rem;
 }
 
 
@@ -1090,4 +1103,90 @@ html::-webkit-scrollbar-thumb {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* Your CSS rules for landscape phones and small tablets */
+}
+
+
+.allProduct{
+    display: flex;
+    padding-top: 3rem;
+    background: #EAEDED;
+    width: 100%;
+}
+
+.allProduct .pDetails{
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+    background: #ffffff;
+    width: 80%;
+    padding-bottom: 3rem;
+}
+
+.allProduct .pDetails .sc{
+    font-size: 4rem;
+    padding: 3rem;
+}
+
+.allProduct .pDetails .pName{
+    display: flex;
+}
+
+.allProduct .pDetails .pName img{
+    height: 20rem;
+}
+
+.allProduct .pDetails .pName .pdDetail{
+    display: flex;
+}
+
+.allProduct .pDetails .pName .pdDetail .pdName{
+    font-size: 2rem;
+    width: 90%;
+}
+
+.allProduct .pDetails .pName .pd .sPrice{
+    margin-right: 3rem;
+    font-size: 2rem;
+}
+
+.allProduct .pDetails .pName .pd .sPrice .off{
+    font-size: 1.3rem;
+    padding: 4px;
+}
+
+.allProduct .pDetails .pName .pd .sPrice .cp{
+    margin-top: 1rem;
+}
+.allProduct .pDetails .pName .pd .sPrice .ap{
+    font-size: 1.35rem;
+}
+
+.allProduct .pDetails .pName .pd .sPrice .ap .op{
+    text-decoration: line-through;
+}
+
+.allProduct .pDetails .price{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.allProduct .pDetails .price p{
+    padding-top: 5px;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.allProduct .cart{
+    background: #ffffff;
+    position: relative;
+    float: right;
+    margin-left: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 10rem;
+}
+
+.allProduct .cart p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.7rem;
 }
