@@ -130,7 +130,10 @@ addressLink.target = "_blank";
 var cart = document.getElementById("cart");
 document.getElementById('cart').href="/cart.html"
 
+var like = document.getElementById("like");
+document.getElementById('like').href="/like.html"
+
 
 
 var tPrice = document.getElementById("tPrice");
-tPrice.innerHTML = "2499";
+tPrice.innerHTML = "5148.00";

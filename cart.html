@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redgare Shadow Black... | Made Setup</title>
+    <title>Cart | Made Setup</title>
     <link rel="shortcut icon" href="/raw/made-setup-logo-zoom.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -29,7 +29,7 @@
 
             <div class="icons">
                 <div id="search-btn" class="fas fa-search"></div>
-                <a href="#" class="fas fa-heart"></a>
+                <a id="like" href="#" class="fas fa-heart"></a>
                 <a id="cart" class="fas fa-shopping-cart">
                     <!-- <span class="cart-item">0</span> -->
                 </a>
@@ -97,42 +97,100 @@
                 <hr>
             </div>
 
-            <div class="pName">
-                <div>
-                    <img src="img/headphone/boAt_Immortal_IM-700_7.1_Channel_PC_Virtual_Surround_Sound,_ENx_Tech,RGB_LEDs,_Remote_Control,_Braided_Cable_USB_Wired_Over_Ear_Gaming_Headphones_with_Mic_and_50mm_Drivers_(Black Sabre)/boat_Immortal_IM_700.jpg"
-                    alt="product image">
-                </div>
+            <!-- <div class="box empty">
+                <p>No item in the cart. Please select any item to add cart.</p>
+                <hr>
+            </div> -->
 
-                <div class="pd">
-                    <div class="pdDetail">
-                        <div>
-                            <p class="pdName">
-                                boAt Immortal IM-700 7.1 Channel PC Virtual Surround Sound, ENx Tech, RGB LEDs, Remote Control, Braided Cable USB Wired Over Ear Gaming Headphones with Mic and 50mm Drivers (Black Sabre)
-                            </p>
 
+
+
+            <div class="box">
+                <div class="pName">
+                    <div>
+                        <a href="">
+                            <img src="img/keybord/Redgear_Shadow_Blade_Mechanical_Keyboard_with_Drive_Customization_Spectrum_LED_Lights_Media_Control_Knob_and_Wrist_Support_Black/redgare_kbd_m_led.jpg"
+                            alt="product image" >
+                        </a>
+                    </div>
+
+                    <div class="pd">
+                        <div class="pdDetail">
+                            <div>
+                                <p class="pdName" >
+                                    Redgear Shadow Blade Mechanical Keyboard with Drive Customization Spectrum LED Lights Media Control Knob and Wrist Support Black
+                                </p>
+                                <div class="pdC">
+                                    <span>Qty:<select name="" id="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select> </span> | <a href="">Delete</a> | <a href="">Share</a> | <a href="">Add to like</a>
+                                </div>
+
+                            </div>
+
+                            <div class="sPrice">
+                                <p class="off"><span class="red off"><span>41</span>% off</span></p>
+                                <p class="cp">₹<span>2,349.00</span></p>
+                                <p class="ap">M.R.P.: ₹<span class="op">3,999</span></p>
+                            </div>
                         </div>
-
-                        <div class="sPrice">
-                            <span class="red off"><span>67</span>% off</span>
-                            <p class="cp">₹<span>2,499.00</span></p>
-                            <p class="ap">M.R.P.: ₹<span class="op">2,999</span></p>
-                        </div>
-
                     </div>
                 </div>
+                <hr>
             </div>
 
-            
-            
-            <div class="price">
+            <div class="box">
+                <div class="pName">
+                    <div>
+                        <img src="img/headphone/boAt_Immortal_IM-700_7.1_Channel_PC_Virtual_Surround_Sound,_ENx_Tech,RGB_LEDs,_Remote_Control,_Braided_Cable_USB_Wired_Over_Ear_Gaming_Headphones_with_Mic_and_50mm_Drivers_(Black Sabre)/boat_Immortal_IM_700.jpg"
+                            alt="product image">
+                    </div>
+
+                    <div class="pd">
+                        <div class="pdDetail">
+                            <div>
+                                <p class="pdName">
+                                    boAt Immortal IM-700 7.1 Channel PC Virtual Surround Sound, ENx Tech, RGB LEDs,
+                                    Remote Control, Braided Cable USB Wired Over Ear Gaming Headphones with Mic and 50mm
+                                    Drivers (Black Sabre)
+                                </p>
+                                <div class="pdC">
+                                    <span>Qty:<select name="" id="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select> </span> | <a href="">Delete</a> | <a href="">Share</a> | <a href="">Add to like</a>
+                                </div>
+
+                            </div>
+
+                            <div class="sPrice">
+                                <p class="off"><span class="red off"><span>60</span>% off</span></p>
+                                <p class="cp">₹<span>2,799.00</span></p>
+                                <p class="ap">M.R.P.: ₹<span class="op">6,990</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <hr>
-                <p>Subtotal (<span id="cItem">1</span> <span>Item</span>): ₹<span id="tPrice">245</span></p>
+            </div>
+
+
+            <div class="price">
+                <!-- <hr> -->
+                <p>Subtotal (<span id="cItem">1</span> <span>Item</span>): ₹<span id="tPrice">245.00</span></p>
             </div>
 
         </div>
 
         <div class="cart">
-            <p>Subtotal (<span id="cItem">1</span> <span>Item</span>): ₹<span id="tPrice">245</span></p>
+            <p>Subtotal (<span id="cItem">1</span> <span>Item</span>): <br>₹<span id="tPrice">5,148.00</span></p>
             <button class="btn">Proceed to buy</button>
         </div>
     </section>

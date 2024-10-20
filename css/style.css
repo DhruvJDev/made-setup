@@ -10,14 +10,14 @@
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
-hr{
+hr {
     margin-top: 10px;
-    height: 3px; 
-    background-color: var(--blue); 
+    height: 3px;
+    background-color: var(--blue);
     color: var(--blue);
 }
 
-.red{
+.red {
     background: red;
     color: white;
 }
@@ -30,7 +30,7 @@ hr{
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transform: all .2s linear;
     transform: width none;
 }
@@ -862,7 +862,7 @@ html::-webkit-scrollbar-thumb {
     margin: 2rem;
 }
 
-.product-d .imgages .main img{
+.product-d .imgages .main img {
     background: #888888;
     width: 50rem;
 }
@@ -913,10 +913,11 @@ html::-webkit-scrollbar-thumb {
     margin-top: 4rem;
 }
 
-.data{
+.data {
     display: block;
     margin-left: 5rem;
 }
+
 /* Table Data */
 
 .tableData {
@@ -953,20 +954,20 @@ html::-webkit-scrollbar-thumb {
 
 /* About */
 
-.pAbout{
+.pAbout {
     font-size: 1.5rem;
 }
 
-.pAbout span{
+.pAbout span {
     font-size: 2rem;
     font-weight: bold;
 }
 
-.pAbout ul{
+.pAbout ul {
     margin-bottom: 1.5rem;
 }
 
-.pAbout ul li{
+.pAbout ul li {
     padding-top: 1rem;
     width: 90%;
     text-transform: none;
@@ -1000,22 +1001,22 @@ html::-webkit-scrollbar-thumb {
     text-transform: none;
 }
 
-@media(max-width:450px)  {
-    .product-d{
+@media(max-width:450px) {
+    .product-d {
         display: block;
         margin-left: 0;
         padding-left: 0;
     }
 
-    .pinfo .pname{
+    .pinfo .pname {
         font-size: 2.2rem;
     }
 
-    .tableData{
+    .tableData {
         font-size: 1.5rem;
     }
 
-    .product-d .imgages .main .img{
+    .product-d .imgages .main .img {
         width: 70%;
         height: auto;
         margin-left: 9rem;
@@ -1106,87 +1107,135 @@ html::-webkit-scrollbar-thumb {
 }
 
 
-.allProduct{
+.allProduct {
     display: flex;
     padding-top: 3rem;
     background: #EAEDED;
     width: 100%;
 }
 
-.allProduct .pDetails{
-    margin-left: 4rem;
+.allProduct .pDetails {
+    margin-left: 3rem;
     margin-bottom: 5rem;
     background: #ffffff;
     width: 80%;
     padding-bottom: 3rem;
 }
 
-.allProduct .pDetails .sc{
+.allProduct .like{
+    width: 100%;
+    margin-right: 4rem;
+}
+
+.allProduct .pDetails .sc {
     font-size: 4rem;
-    padding: 3rem;
+    padding: 3rem 3rem 0 3rem;
 }
 
-.allProduct .pDetails .pName{
+.allProduct .pDetails .box {
+    margin: 3rem 3rem 0 3rem;
+    /* height: 22rem; */
+}
+
+.allProduct .pDetails .pName {
     display: flex;
 }
 
-.allProduct .pDetails .pName img{
+.allProduct .pDetails .pName img {
     height: 20rem;
+    width: 20rem;
+    object-fit: fill;
 }
 
-.allProduct .pDetails .pName .pdDetail{
+.allProduct .pDetails .pName .pdDetail {
     display: flex;
+    padding-left: 3rem;
 }
 
-.allProduct .pDetails .pName .pdDetail .pdName{
+.allProduct .pDetails .pName .pdDetail .pdName {
     font-size: 2rem;
-    width: 90%;
+    width: 95%;   
 }
 
-.allProduct .pDetails .pName .pd .sPrice{
-    margin-right: 3rem;
+.allProduct .pDetails .empty p{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.allProduct .pDetails .box .pName .pd .pdDetail .pdC{
+    padding-top: 1rem;
     font-size: 2rem;
 }
 
-.allProduct .pDetails .pName .pd .sPrice .off{
+.allProduct .pDetails .box .pName .pd .pdDetail .pdC select{
+    font-size: 2rem;
+}
+
+.allProduct .pDetails .box .pName .pd .pdDetail .pdC a{
+    color: var(--blue);
+}
+
+.allProduct .pDetails .box .pName .pd .pdDetail .pdC a:hover{
+    color: var(--dark-color);
+}
+
+.allProduct .pDetails .pName .pd .sPrice {
+    /* margin-right: 3rem; */
+    font-size: 2rem;
+    width: 11rem;
+}
+
+.allProduct .pDetails .pName .pd .sPrice .off {
     font-size: 1.3rem;
     padding: 4px;
+    /* display: ; */
+    text-align: right;
 }
 
-.allProduct .pDetails .pName .pd .sPrice .cp{
+.allProduct .pDetails .pName .pd .sPrice .cp {
     margin-top: 1rem;
 }
-.allProduct .pDetails .pName .pd .sPrice .ap{
+
+.allProduct .pDetails .pName .pd .sPrice .ap {
     font-size: 1.35rem;
+    color: #000000;
 }
 
-.allProduct .pDetails .pName .pd .sPrice .ap .op{
+.allProduct .pDetails .pName .pd .sPrice .ap .op {
     text-decoration: line-through;
+    color: gray;
 }
 
-.allProduct .pDetails .price{
+.allProduct .pDetails .price {
     padding-left: 3rem;
     padding-right: 3rem;
 }
 
-.allProduct .pDetails .price p{
-    padding-top: 5px;
+.allProduct .pDetails .price p {
+    padding-top: 1rem;
     font-size: 1.5rem;
     text-align: right;
+    font-size: 2.5rem;
 }
 
-.allProduct .cart{
+.allProduct .cart {
     background: #ffffff;
     position: relative;
     float: right;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    height: 10rem;
+    height: 13rem;
 }
 
-.allProduct .cart p{
+.allProduct .cart p {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 1.7rem;
+    font-size: 2rem;
+}
+
+.allProduct .cart button{
+    font-size: 2rem;
+    text-transform: none;
 }
