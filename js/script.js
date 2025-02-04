@@ -124,6 +124,25 @@ cAddress.innerHTML = "My World, kali Devi Chowk, Hansi, Haryana, 125033";
 document.getElementById('addressLink').href = "https://goo.gl/maps/B4mLfGGZCqCEsKTc7";
 addressLink.target = "_blank";
 
+
+
+
+  const links = {
+    "about": "footer/about.html",
+    "terms": "footer/term_condition.html",
+    "privacy": "footer/privacy_policy.html",
+    "refund": "footer/refund.html",
+    "delivery": "footer/delivery.html"
+};
+
+// Loop through each element and set its href attribute
+for (let id in links) {
+    let linkElement = document.getElementById(id);
+    if (linkElement) {
+        linkElement.href = links[id];
+    }
+}
+
 // Footer End
 
 
