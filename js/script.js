@@ -128,11 +128,11 @@ addressLink.target = "_blank";
 
 
   const links = {
-    "about": "footer/about.html",
-    "terms": "footer/term_condition.html",
-    "privacy": "footer/privacy_policy.html",
-    "refund": "footer/refund.html",
-    "delivery": "footer/delivery.html"
+    "about": "about.html",
+    "terms": "term_condition.html",
+    "privacy": "privacy_policy.html",
+    "refund": "refund.html",
+    "delivery": "delivery.html"
 };
 
 // Loop through each element and set its href attribute
