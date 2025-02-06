@@ -120,7 +120,7 @@ document.getElementById('cMail').style.textTransform = "none";
 
 // Address
 var cAddress = document.getElementById("cAddress");
-cAddress.innerHTML = "Rendom Address, City, State, Country, Pincode";
+cAddress.innerHTML = "Random Address, City, State, Country, PIN code";
 document.getElementById('addressLink').href = "https://goo.gl/maps/B4mLfGGZCqCEsKTc7";
 addressLink.target = "_blank";
 
