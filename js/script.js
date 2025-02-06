@@ -109,18 +109,18 @@ window.onload = () =>
 
 // Phone
 var cNumber = document.getElementById("cNumber");
-cNumber.innerHTML = "+91 88728-89961";
-document.getElementById('phoneLink').href = "tel:+918872889961";
+cNumber.innerHTML = "+91 88XX12XX88";
+document.getElementById('phoneLink').href = "tel:+9188XX12XX88";
 
 // Mail Id
 var cMail = document.getElementById("cMail");
-cMail.innerHTML = "Dhruvjindal156@gmail.com";
-document.getElementById('emailLink').href = "mailto:dhruvjindal156@gmail.com";
+cMail.innerHTML = "Example@gmail.com";
+document.getElementById('emailLink').href = "mailto:Example@gmail.com";
 document.getElementById('cMail').style.textTransform = "none";
 
 // Address
 var cAddress = document.getElementById("cAddress");
-cAddress.innerHTML = "My World, kali Devi Chowk, Hansi, Haryana, 125033";
+cAddress.innerHTML = "Rendom Address, City, State, Country, Pincode";
 document.getElementById('addressLink').href = "https://goo.gl/maps/B4mLfGGZCqCEsKTc7";
 addressLink.target = "_blank";
 
